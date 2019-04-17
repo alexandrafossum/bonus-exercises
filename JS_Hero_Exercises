@@ -1,0 +1,42 @@
+**Functions**
+
+ EXERCISE 1:
+Declare a variable hello. Assign a function to it returning "Hello world!".
+
+ SOLUTION
+var hello = function() {
+return "Hello world!";
+}
+
+ EXERCISE 2:
+functions. The first function a should return "Hello a!" and the second function b should return "Hello b!".
+
+ SOLUTION
+function a() {
+return "Hello a!";
+}
+function b() {
+return "Hello b!";
+}
+
+ EXERCISE 3:
+1. Define a function greet returning the value "Haydo!".
+2. Declare a variable salutation. Call the function greet and assign the result of the call to the variable salutation.
+
+ SOLUTION
+function greet() {
+return "Haydo!";
+}
+var salutation = greet();
+
+ EXERCISE 4:
+Which value does x have after execution of the following code?
+
+var hello = function() {
+  return "Hi!";
+};
+
+var x = hello();
+
+ SOLUTION
+"Hi!"
