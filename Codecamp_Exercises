@@ -1,0 +1,17 @@
+**BASIC JS**
+
+ EXERCISE 1:
+Create a // style comment that contains at least five letters.
+Create a /* */ style comment that contains at least five letters.
+
+SOLUTION
+// edwin buendia
+/* edwin
+buendia*/
+
+ EXERCISE 2:
+You should declare myName with the var keyword, ending with a semicolon
+
+SOLUTION
+var myName;
+
