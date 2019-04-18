@@ -5,12 +5,18 @@
 
 // 1. Create a function that returns a random day of the week
 
+    // var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    // function randomDay () {
+    //     return days[Math.floor(Math.random() * days.length)];
+    // }
+    // console.log(randomDay(days));
 
 /* 2. Create a function that takes a single letter and returns
  what number the letter is in the alphabet. Ignore case. */
-
 // someFunction("a") // returns 1
 // someFunction("z") // returns 26
+   var alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+
 
 
 /* 3. Create a function that returns the longest string in a
