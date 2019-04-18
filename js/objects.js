@@ -10,6 +10,36 @@
  //     - isOpen
  // Define your objects using both literal syntax to create all properties and values at once and also try defining empty objects and assign property values in separate statements.
 
+ //    var beverages = [
+ //        {
+ //            brandName: "Coca Cola",
+ //            type: "soda",
+ //            volumeInLiters: "12",
+ //            priceInCents: "",
+ //            expirationDate: "April 20",
+ //            dateTimesOfLastSips: "4",
+ //            isOpen: "open"
+ //
+ //    },
+ //    {
+ //            brandName: "Corona",
+ //                type: "beer",
+ //            volumeInLiters: "2",
+ //            priceInCents: "",
+ //            expirationDate: "May 5",
+ //            dateTimesOfLastSips: "0",
+ //            isOpen: "closed"
+ //    },
+ //    {
+ //            brandName: "Ozarka",
+ //                type: "water",
+ //            volumeInLiters: "12",
+ //            priceInCents: ".99",
+ //            expirationDate: "July 1",
+ //            dateTimesOfLastSips: "8",
+ //            isOpen: "open"
+ //    }
+ // ];
 
  //     Mini Exercise 2
  var users = [
@@ -26,12 +56,12 @@
          age: 43
      }
  ];
-
-
  // 1. Log the names of all users in a single console log seperated by spaces.
  // 2. Change the names of all users to "John Doe"
  // 3. Increase the current age of all users by 1
  // Can you accomplish each step using iteration?
+
+console.log(users.name);
 
 
  //     Mini Exercise 3
