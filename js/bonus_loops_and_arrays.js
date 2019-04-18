@@ -16,14 +16,20 @@
 // someFunction("a") // returns 1
 // someFunction("z") // returns 26
 
-//    var alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-//     for (var i = 0; i < alphabet.length; i++) {
-//         console.log('The letter, ' + alphabet[i] + ' is positioned ' + (i+1) + " in the alphabet");
-//     }
+   // var alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+   //  for (var i = 0; i < alphabet.length; i++) {
+   //      console.log('The letter, ' + alphabet[i] + ' is positioned ' + (i+1) + " in the alphabet");
+   //  }
 
 
 /* 3. Create a function that returns the longest string in a
  given array of string elements. */
+
+    var names = ["Tim", "Timmy", "Jerrod", "Jedidiah"];
+    function longestString () {
+
+    }
+
 
 /* 4. Create a function that takes in two arrays of elements,
  including numbers. If all numbers added together in the first
@@ -34,20 +40,19 @@
 // var arr2 = [2, null, undefined, 0, 2, "apple"]
 // exampleFunction(arr1, arr2) // returns true
 
-   var array1 = ["Edwin", 16, "Buendia", 23];
-   var array2 = ["Kun", "Yeye", 2, 7];
-   function addNumbers() {
-       var totalArray1 = ;
-       var totalArray2 = ;
-       if (totalArray1 === totalArray2) {
-        return true;
-       }
-   }
+   // var array1 = ["Edwin", 16, "Buendia", 23];
+   // var array2 = ["Kun", "Yeye", 2, 7];
+   // function addNumbers() {
+   //     var totalArray1 = ;
+   //     var totalArray2 = ;
+   //     if (totalArray1 === totalArray2) {
+   //      return true;
+   //     }
+   // }
 
 
 /* 5. Write a program to toggle the case for all characters in a string.
  Special characters will not change. */
-
 //     Example input: "aBc12#""
 // Example output: "AbC12#"
 
