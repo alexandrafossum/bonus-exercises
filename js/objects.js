@@ -10,36 +10,36 @@
  //     - isOpen
  // Define your objects using both literal syntax to create all properties and values at once and also try defining empty objects and assign property values in separate statements.
 
- //    var beverages = [
- //        {
- //            brandName: "Coca Cola",
- //            type: "soda",
- //            volumeInLiters: "12",
- //            priceInCents: "",
- //            expirationDate: "April 20",
- //            dateTimesOfLastSips: "4",
- //            isOpen: "open"
- //
- //    },
- //    {
- //            brandName: "Corona",
- //                type: "beer",
- //            volumeInLiters: "2",
- //            priceInCents: "",
- //            expirationDate: "May 5",
- //            dateTimesOfLastSips: "0",
- //            isOpen: "closed"
- //    },
- //    {
- //            brandName: "Ozarka",
- //                type: "water",
- //            volumeInLiters: "12",
- //            priceInCents: ".99",
- //            expirationDate: "July 1",
- //            dateTimesOfLastSips: "8",
- //            isOpen: "open"
- //    }
- // ];
+    var beverages = [
+        {
+            brandName: "Coca Cola",
+            type: "soda",
+            volumeInLiters: "12",
+            priceInCents: "",
+            expirationDate: "April 20",
+            dateTimesOfLastSips: "4",
+            isOpen: "open"
+
+    },
+    {
+            brandName: "Corona",
+                type: "beer",
+            volumeInLiters: "2",
+            priceInCents: "",
+            expirationDate: "May 5",
+            dateTimesOfLastSips: "0",
+            isOpen: "closed"
+    },
+    {
+            brandName: "Ozarka",
+                type: "water",
+            volumeInLiters: "12",
+            priceInCents: ".99",
+            expirationDate: "July 1",
+            dateTimesOfLastSips: "8",
+            isOpen: "open"
+    }
+ ];
 
  //     Mini Exercise 2
  var users = [
@@ -62,8 +62,8 @@
  // Can you accomplish each step using iteration?
 
 console.log(users[0].name + ", " + users[1].name + ", " + users[2].name);
-console.log();
-console.log(users[0]);
+console.log(users[0].name = "John Doe");
+console.log(users[0].age + 1);
 
  //     Mini Exercise 3
  // Create a dog object...
@@ -80,6 +80,20 @@ console.log(users[0]);
  // fix() - will set sterile to true if dog sterilized property is false
  // vaccinate() - takes in an argument for the name of the shot and adds a new shot with the current date to the shotRecords array
 
+ var dog = {
+    breed: "",
+    weightInPounds: "number",
+    age: "number",
+    color: "",
+    sterilized: "true",
+    shotRecords: [
+        shot1 = {
+            date: "number",
+            typeOfShot: ""
+        }
+    ]
+ };
+
 
  // BONUS 1 (expanding on the books object exercise):
  // Add a property "keywords" that contains an array of possible genres the book may be categorized by
@@ -92,6 +106,8 @@ console.log(users[0]);
  // Add a method receive() that...
  // - changes the available property to true
  // - changes the dateAvailable property to the string "now"
+
+
 
 
  // BONUS 2 (expanding on the books object exercise):
