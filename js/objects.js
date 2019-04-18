@@ -61,8 +61,9 @@
  // 3. Increase the current age of all users by 1
  // Can you accomplish each step using iteration?
 
-console.log(users.name);
-
+console.log(users[0].name + ", " + users[1].name + ", " + users[2].name);
+console.log();
+console.log(users[0]);
 
  //     Mini Exercise 3
  // Create a dog object...
