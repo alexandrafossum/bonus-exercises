@@ -139,7 +139,8 @@ small {
 
 .contact p {
     font-size: smaller;
-    padding-left: .50rem;
+    padding: auto 0;
+
 }
 
 .contact fieldset {
@@ -184,9 +185,6 @@ small {
     color: #459288;
 }
 
-#logo {
-
-}
 
 /*MEDIA QUERIES*/
 

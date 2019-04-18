@@ -14,7 +14,9 @@
 
 function printGroceryList() {
     var items = document.getElementById('');
+    return items;
 }
+
 
 
 

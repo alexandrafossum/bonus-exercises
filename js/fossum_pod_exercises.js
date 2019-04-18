@@ -8,7 +8,9 @@ function generateDay() {
     return "The day is: " + randomDay;
 }
 
-console.log(generateDay());
+// console.log(generateDay());
+
+document.getElementById("day").innerHTML = (generateDay());
 
 
 //Create a function that takes a single letter and returns what number the letter is in the alphabet. Ignore case.
@@ -18,11 +20,12 @@ var letterPrompt = prompt("Enter a letter in the English alphabet.");
 
 function indexOfLetter(i) {
     for (i = 0; i < alphabet.length; i++) {
-        return alphabet.indexOf(letterPrompt.toLowerCase()) + 1;
+        return letterPrompt + "'s index is " + (alphabet.indexOf(letterPrompt.toLowerCase()) + 1);
     }
 }
 
-console.log(alert(indexOfLetter()));
+document.getElementById("letter").innerHTML = indexOfLetter();
+// console.log(alert(indexOfLetter()));
 
 
 /** Create a student roster management app. Using the user dialogue functions (alert, confirm, prompt), create an application that will prompt the user to choose from a menu with the following actions:
@@ -31,8 +34,6 @@ console.log(alert(indexOfLetter()));
  3) view all students in alphabetical order
  4) view all students in reverse alphabetical
  **/
-
-var studentArray = ["Lester", "Joe", "Pierre", "John", "Brian", "Kim", "Jean", "Paul", "Stephen", "Justin"];
 
 
 // var studentArray = ["Lester", "Joe", "Pierre", "John", "Brian", "Kim", "Jean", "Paul", "Stephen", "Justin"];
