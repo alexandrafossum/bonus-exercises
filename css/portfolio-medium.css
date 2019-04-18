@@ -32,12 +32,16 @@ input {
     clear: right;
     width: 200px;
     text-align: left;
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 0 1rem 0 1rem;
+}
+
+small {
+    text-align: center;
 }
 
 .resume table {
     font-size: x-small;
-    margin: 0rem 1rem 0rem 1rem;
+    margin: 0 1rem 0 1rem;
 }
 
 .white {
@@ -87,7 +91,7 @@ input {
 .mywork div {
     text-align: center;
     font-size: smaller;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 1rem 0 1rem 0;
 }
 
 .mywork img {
@@ -145,6 +149,16 @@ input {
     border: .50rem solid #459288;
 }
 
+.contact-link a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact-link a:hover {
+    text-decoration: none;
+    color: #459288;
+}
+
 #profile-picture {
     border-radius: 50rem;
     position: relative;
@@ -170,26 +184,70 @@ input {
     color: #459288;
 }
 
-/*MEDIA QUERIES*/
-
-@media screen and (max-width: 575px) {
+#logo {
 
 }
 
-/*@media screen and (min-width: 576px) and (max-width: 991px) {*/
+/*MEDIA QUERIES*/
+
+@media (min-width: 576px) {
+    body {
+
+    }
+    .container {
+        margin: 0 auto;
+        max-width: 767px;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        margin: 0 auto;
+        max-width: 991px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        margin: 0 auto;
+        max-width: 990px;
+        /*padding: 0px 160px 0px 160px;*/
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        margin: 0 auto;
+        /*padding: 0px 175px 0px 175px;*/
+    }
+}
+
+
+
+
+/*@media screen and (max-width: 575px) {*/
 
 /*}*/
 
-@media screen and (min-width: 576px) {
+/*!*@media screen and (min-width: 576px) and (max-width: 991px) {*!*/
 
-    body {
-        position: relative;
-        left: 10rem;
-    }
+/*!*}*!*/
 
-    .aboutme {
-        position: relative;
-        right: 10rem;
-    }
+/*@media screen and (min-width: 576px) {*/
 
-}
+    /*body {*/
+        /*position: relative;*/
+        /*left: 10rem;*/
+    /*}*/
+
+    /*.aboutme {*/
+        /*position: relative;*/
+        /*right: 10rem;*/
+    /*}*/
+
+/*}*/

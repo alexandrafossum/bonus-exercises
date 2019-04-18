@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e89073bf-1229-4b23-ad9f-1195978e7483" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bonus-exercises.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dom-bonus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dom-bonus.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dom-bonus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fossum_pod_exercises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-medium.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/portfolio-medium.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-medium.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-medium.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,21 +16,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dom-bonus.html">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio-medium.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="232">
+              <caret line="110" column="14" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dom-bonus.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/portfolio-medium.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="251">
+              <caret line="196" column="14" selection-start-line="196" selection-start-column="14" selection-end-line="196" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -57,18 +54,21 @@
       <list>
         <option value="$PROJECT_DIR$/pod_exercises_fossum.html" />
         <option value="$PROJECT_DIR$/fossum_pod_exercises.js" />
-        <option value="$PROJECT_DIR$/portfolio-medium.html" />
-        <option value="$PROJECT_DIR$/portfolio-medium.css" />
         <option value="$PROJECT_DIR$/fossum_pod_exercises.html" />
         <option value="$PROJECT_DIR$/dom-bonus.js" />
         <option value="$PROJECT_DIR$/dom-bonus.html" />
+        <option value="$PROJECT_DIR$/prac.js" />
+        <option value="$PROJECT_DIR$/prac.html" />
+        <option value="$PROJECT_DIR$/portfolio-medium.css" />
+        <option value="$PROJECT_DIR$/portfolio-medium.html" />
+        <option value="$PROJECT_DIR$/css/portfolio-medium.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="609" />
+    <option name="x" value="705" />
     <option name="y" value="23" />
-    <option name="width" value="671" />
+    <option name="width" value="575" />
     <option name="height" value="734" />
   </component>
   <component name="ProjectView">
@@ -76,7 +76,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -89,16 +88,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555363324162" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555595472182" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,17 +129,20 @@
       <updated>1555099675636</updated>
       <workItem from="1555099676938" duration="764000" />
       <workItem from="1555360432067" duration="2913000" />
+      <workItem from="1555363449536" duration="322000" />
+      <workItem from="1555515577705" duration="187000" />
+      <workItem from="1555545391859" duration="4180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3677000" />
+    <option name="totallyTimeSpent" value="8366000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="609" y="23" width="671" height="734" extended-state="0" />
+    <frame x="705" y="23" width="575" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.36024845" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18378378" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -169,20 +177,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pod_exercises_fossum.html" />
-    <entry file="file://$PROJECT_DIR$/portfolio-medium.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2115">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio-medium.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fossum_pod_exercises.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -197,17 +191,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dom-bonus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dom-bonus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dom-bonus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prac.html" />
+    <entry file="file://$PROJECT_DIR$/prac.js" />
+    <entry file="file://$PROJECT_DIR$/portfolio-medium.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="110" column="14" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/portfolio-medium.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="196" column="14" selection-start-line="196" selection-start-column="14" selection-end-line="196" selection-end-column="14" />
         </state>
       </provider>
     </entry>
