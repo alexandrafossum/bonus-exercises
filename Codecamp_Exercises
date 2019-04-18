@@ -15,3 +15,192 @@ You should declare myName with the var keyword, ending with a semicolon
 SOLUTION
 var myName;
 
+ EXERCISE 3:
+Assign the value 7 to variable a.
+Assign the contents of a to variable b.
+
+SOLUTION
+var a = b + 5;
+var b = a;
+
+ EXERCISE 4:
+Define a variable a with var and initialize it to a value of 9.
+
+SOLUTION
+var a = 9;
+
+ EXERCISE 5:
+Initialize the three variables a, b, and c with 5, 10, and "I am a" respectively so that they will not be undefined.
+
+SOLUTION
+var a = 5;
+var b = 10;
+var c = "I am a";
+
+a = a + 1;
+b = b + 5;
+c = c + " String!";
+
+ EXERCISE 6:
+Modify the existing declarations and assignments so their names use camelCase.
+Do not create any new variables.
+
+SOLUTION
+// Declarations
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+
+// Assignments
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
+
+ EXERCISE 7:
+Change the 0 so that sum will equal 20.
+
+SOLUTION
+var sum = 10 + 10;
+
+ EXERCISE 8:
+Change the 0 so the difference is 12.
+
+SOLUTION
+var difference = 45 - 33;
+
+ EXERCISE 9:
+Change the 0 so that product will equal 80.
+
+SOLUTION
+var product = 8 * 10;
+
+ EXERCISE 10:
+Change the 0 so that the quotient is equal to 2
+
+SOLUTION
+var quotient = 66 / 33;
+
+ EXERCISE 11:
+Change the code to use the ++ operator on myVar.
+
+SOLUTION
+var myVar = 87;
+
+myVar++;
+
+ EXERCISE 12:
+Change the code to use the -- operator on myVar.
+
+SOLUTION
+var myVar = 11;
+
+myVar--;
+
+ EXERCISE 13:
+Create a variable myDecimal and give it a decimal value with a fractional part (e.g. 5.7).
+
+SOLUTION
+var myDecimal = 3.2;
+
+ EXERCISE 14:
+Change the 0.0 so that product will equal 5.0.
+
+SOLUTION
+var product = 2.0 * 2.5;
+
+ EXERCISE 15:
+Change the 0.0 so that quotient will equal to 2.2.
+
+SOLUTION
+var quotient = 4.4 / 2.0;
+
+ EXERCISE 16:
+Set remainder equal to the remainder of 11 divided by 3 using the remainder (%) operator.
+
+SOLUTION
+var remainder = 11 % 3;
+
+ EXERCISE 17:
+Convert the assignments for a, b, and c to use the += operator.
+
+SOLUTION
+var a = 3;
+var b = 17;
+var c = 12;
+
+a += 12;
+b += 9;
+c += 7;
+
+ EXERCISE 18:
+Convert the assignments for a, b, and c to use the -= operator.
+
+SOLUTION
+var a = 11;
+var b = 9;
+var c = 3;
+
+a -= 6;
+b -= 15;
+c -= 1;
+
+ EXERCISE 19:
+Convert the assignments for a, b, and c to use the *= operator.
+
+SOLUTION
+var a = 5;
+var b = 12;
+var c = 4.6;
+
+a *= 5;
+b *= 3;
+c *= 10;
+
+ EXERCISE 20:
+Convert the assignments for a, b, and c to use the /= operator.
+
+SOLUTION
+var a = 48;
+var b = 108;
+var c = 33;
+
+a /= 12;
+b /= 4;
+c /= 11;
+
+ EXERCISE 21:
+Create two new string variables: myFirstName and myLastName and assign them the values of your first and last name, respectively.
+
+SOLUTION
+var myFirstName = "Edwin";
+var myLastName = "Buendia";
+
+ EXERCISE 22:
+Use backslashes to assign a string to the myStr variable so that if you were to print it to the console, you would see:
+
+I am a "double quoted" string inside "double quotes".
+
+SOLUTION
+var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+
+ EXERCISE 23:
+Change the provided string to a string with single quotes at the beginning and end and no escape characters.
+
+Right now, the <a> tag in the string uses double quotes everywhere. You will need to change the outer quotes to single quotes so you can remove the escape characters.
+
+SOLUTION
+var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+ EXERCISE 24:
+Assign the following three lines of text into the single variable myStr using escape sequences.
+
+FirstLine
+    \SecondLine
+ThirdLine
+You will need to use escape sequences to insert special characters correctly. You will also need to follow the spacing as it looks above, with no spaces between escape sequences or words.
+
+Here is the text with the escape sequences written out.
+
+FirstLinenewlinetabbackslashSecondLinenewlineThirdLine
+
+SOLUTION
